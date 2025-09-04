@@ -1,0 +1,49 @@
+2024-01-15 08:00:00 [INFO] Application startup initiated
+2024-01-15 08:00:01 [INFO] Loading configuration from application.properties
+2024-01-15 08:00:02 [INFO] Database connection pool initialized
+2024-01-15 08:00:03 [INFO] Hibernate ORM initialized successfully
+2024-01-15 08:00:04 [INFO] Spring Security configuration loaded
+2024-01-15 08:00:05 [INFO] OAuth2 providers configured: Google, GitHub
+2024-01-15 08:00:06 [INFO] Web server started on port 8080
+2024-01-15 08:00:07 [INFO] Application startup completed in 7.2 seconds
+
+2024-01-15 10:15:30 [INFO] User login: test@example.com via Google OAuth2
+2024-01-15 10:15:31 [INFO] Session created for user: test@example.com
+2024-01-15 10:16:00 [INFO] Log file upload initiated by user: test@example.com
+2024-01-15 10:16:01 [INFO] Processing 1000 log entries
+2024-01-15 10:16:05 [WARN] AI service response took longer than expected: 3.2s
+2024-01-15 10:16:10 [INFO] Anomaly detection completed: 15 anomalies found
+2024-01-15 10:16:11 [INFO] Log processing completed successfully
+
+2024-01-15 14:22:15 [ERROR] Database connection timeout after 30 seconds
+2024-01-15 14:22:16 [WARN] Attempting to reconnect to database
+2024-01-15 14:22:17 [ERROR] Connection retry failed: Connection refused
+2024-01-15 14:22:18 [FATAL] Database unavailable, switching to maintenance mode
+2024-01-15 14:22:19 [INFO] Maintenance mode activated
+2024-01-15 14:25:30 [INFO] Database connection restored
+2024-01-15 14:25:31 [INFO] Exiting maintenance mode
+2024-01-15 14:25:32 [INFO] All systems operational
+
+2024-01-15 16:45:00 [WARN] High memory usage detected: 85%
+2024-01-15 16:45:01 [WARN] Garbage collection triggered
+2024-01-15 16:45:02 [INFO] Memory usage reduced to 62%
+2024-01-15 16:48:30 [ERROR] OutOfMemoryError in thread pool-2-thread-15
+2024-01-15 16:48:31 [ERROR] Thread pool exhausted, new requests will be queued
+2024-01-15 16:48:32 [WARN] Consider increasing JVM heap size
+
+2024-01-15 18:30:00 [INFO] Daily log rotation initiated
+2024-01-15 18:30:01 [INFO] Archived 2.3GB of log data
+2024-01-15 18:30:02 [INFO] Log rotation completed successfully
+2024-01-15 18:30:03 [DEBUG] Log cleanup removed 30 old archive files
+
+2024-01-15 20:00:00 [SECURITY] Failed login attempt from IP: 192.168.1.100
+2024-01-15 20:00:05 [SECURITY] Failed login attempt from IP: 192.168.1.100
+2024-01-15 20:00:10 [SECURITY] Failed login attempt from IP: 192.168.1.100
+2024-01-15 20:00:11 [SECURITY] IP 192.168.1.100 temporarily blocked due to failed attempts
+2024-01-15 20:15:00 [SECURITY] Suspicious API requests from IP: 10.0.0.50
+2024-01-15 20:15:01 [SECURITY] Rate limiting applied to IP: 10.0.0.50
+
+2024-01-15 23:59:59 [INFO] End of day statistics generated
+2024-01-15 23:59:59 [INFO] Total requests processed: 45,230
+2024-01-15 23:59:59 [INFO] Average response time: 245ms
+2024-01-15 23:59:59 [INFO] Error rate: 0.12%
